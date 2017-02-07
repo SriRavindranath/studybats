@@ -1,0 +1,56 @@
+{
+  "name": "course_details",
+  "plural": "course",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "length": 11,
+      "autoIncrement": 1
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "course_level": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    },
+    "stream": {
+      "type": "string"
+    },
+    "sub_stream": {
+      "type": "string"
+    },
+    "semester": {
+      "type": "string"
+    },
+    "is_compulsory": {
+      "type": "string"
+    },
+    "sem_code": {
+      "type": "string"
+    },
+    "university_name": {
+      "type": "string"
+    },
+    "university_id": {
+      "type": "number",
+      "length": 11
+    },
+    "course_name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

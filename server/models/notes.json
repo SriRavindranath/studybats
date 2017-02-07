@@ -1,0 +1,125 @@
+{
+  "name": "Notes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "length": 11,
+      "autoIncrement": 1
+    },
+    "book_name": {
+      "type": "string",
+      "required": true
+    },
+    "book_type": {
+      "type": "string",
+      "required": true
+    },
+    "edition": {
+      "type": "string",
+      "required": false
+    },
+    "price": {
+      "type": "number",
+      "required": false
+    },
+    "author": {
+      "type": "string",
+      "required": false
+    },
+    "subject_name": {
+      "type": "string",
+      "required": false
+    },
+    "subject_id": {
+      "type": "number",
+      "length": 11
+    },
+    "course_id": {
+      "type": "number",
+      "required": false,
+      "length": 11
+    },
+    "college_id": {
+      "type": "number",
+      "length": 11
+    },
+    "department": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "semester": {
+      "type": "string"
+    },
+    "paper": {
+      "type": "number"
+    },
+    "university_id": {
+      "type": "number",
+      "length": 11
+    },
+    "image_id": {
+      "type": "number",
+      "length": 11
+    },
+    "description": {
+      "type": "string"
+    },
+    "modified_date": {
+      "type": "date"
+    },
+    "created_date": {
+      "type": "date"
+    },
+    "posted_by": {
+      "type": "string"
+    },
+    "phone_no": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "city_id": {
+      "type": "number",
+      "length": 11
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

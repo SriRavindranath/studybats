@@ -1,0 +1,28 @@
+{
+  "name": "nayi",
+  "plural": "nayi",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "length": 11,
+      "autoIncrement": true
+    },
+    "nayi_name": {
+      "type": "string",
+      "required": true
+    },
+    "Street": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

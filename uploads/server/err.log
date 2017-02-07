@@ -1,0 +1,99 @@
+Error: Cannot GET /administrator/index.php
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /robots.txt
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /robots.txt
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /cgi/common.cgi
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /stssys.htm
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /Tableau/index.html
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET http://maxcd03-dev01.chinacloudapp.cn/images/transparent-pixel._CB386942464_.gif
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /wp-login.php
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /administrator/
+    at raiseUrlNotFoundError (/home/ubuntu/workspace/StudybatsAPI/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:312:13)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:271:10)
+    at /home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ubuntu/workspace/StudybatsAPI/node_modules/express/lib/router/index.js:46:12)

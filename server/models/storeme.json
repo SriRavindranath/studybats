@@ -1,0 +1,56 @@
+{
+  "name": "storeme",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "length": 11,
+      "autoIncrement": 1
+    },
+"created_by_user_id": {
+      "type": "number",
+      "length": 11
+    },
+"modified_by_user_id": {
+      "type": "number",
+      "length": 11
+    },    
+"created_at": {
+      "type": "date"
+    },
+    "deleted_at": {
+      "type": "date"
+    },
+      "modified_at": {
+      "type": "date"
+    },
+"storename": {
+      "type": "string",
+      "required": true
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+   "longitude": {
+      "type": "number"
+    },
+     "latitude": {
+      "type": "number"
+    },
+     "altitude": {
+      "type": "number"
+    }
+},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

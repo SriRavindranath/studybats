@@ -1,0 +1,45 @@
+{
+  "name": "colleges",
+  "plural": "colleges",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "college_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Street": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "pinCode": {
+      "type": "number"
+    },
+    "type": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "string"
+    },
+    "PH": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

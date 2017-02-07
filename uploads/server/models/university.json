@@ -1,0 +1,61 @@
+{
+  "name": "University",
+  "plural": "uni",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "UNI_ID": {
+      "type": "string",
+      "required": true
+    },
+    "UniversityName": {
+      "type": "string",
+      "required": true
+    },
+    "Street": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string",
+      "required": true
+    },
+    "PinCode": {
+      "type": "number"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "LogoURL": {
+      "type": "string"
+    },
+    "director": {
+      "type": "string"
+    },
+    "Chairman": {
+      "type": "string"
+    },
+    "ViceChancellor": {
+      "type": "string"
+    },
+    "EmailID": {
+      "type": "string"
+    },
+    "Established": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

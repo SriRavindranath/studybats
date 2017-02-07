@@ -1,0 +1,58 @@
+{
+  "name": "postads",
+  "plural": "ads",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ADS_ID": {
+      "type": "string",
+      "required": true
+    },
+    "Book_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Subject_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Course_Type": {
+      "type": "string"
+    },
+    "Course_name": {
+      "type": "string",
+      "required": true
+    },
+    "College_id": {
+      "type": "string"
+    },
+    "Department": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    },
+    "Semester": {
+      "type": "string"
+    },
+    "Paper": {
+      "type": "string"
+    },
+    "University_id": {
+      "type": "string"
+    },
+    "image_URL": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

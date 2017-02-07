@@ -1,0 +1,74 @@
+{
+  "name": "Notes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ADS_ID": {
+      "type": "string",
+      "required": false
+    },
+    "Book_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Book_Type": {
+      "type": "string",
+      "required": true
+    },
+    "Edition": {
+      "type": "string",
+      "required": false
+    },
+    "Subject_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Course_Type": {
+      "type": "string"
+    },
+    "Course_name": {
+      "type": "string",
+      "required": false
+    },
+    "College_Name": {
+      "type": "string"
+    },
+    "Department": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "number"
+    },
+    "Semester": {
+      "type": "string"
+    },
+    "Paper": {
+      "type": "number"
+    },
+    "UniversityName": {
+      "type": "string"
+    },
+    "image_URL": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "modified_date": {
+      "type": "date"
+    },
+    "created_date": {
+      "type": "date"
+    },
+    "posted_by": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

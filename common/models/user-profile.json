@@ -1,0 +1,65 @@
+{
+  "name": "userprofile",
+  "plural": "user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "phone_no": {
+      "type": "string",
+      "required": true
+    },
+    "university_id": {
+      "type": "number",
+      "required": false,
+      "length": 11
+    },
+    "college_id": {
+      "type": "number",
+      "required": false,
+      "length": 11
+    },
+    "course_id": {
+      "type": "number",
+      "required": false,
+      "length": 11
+    },
+    "degree": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+    "accessType": "*",
+    "principalType": "ROLE",
+    "principalId": "$owner",
+    "permission": "ALLOW"
+},
+{
+    "accessType": "*",
+    "principalType": "ROLE",
+    "principalId": "$everyone",
+    "permission": "ALLOW",
+    "property": "updateAttributes"
+},
+{
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": "updateAttributes"
+    }
+  ],
+  "methods": {}
+}

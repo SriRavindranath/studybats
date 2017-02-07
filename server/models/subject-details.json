@@ -1,0 +1,29 @@
+{
+  "name": "subject_details",
+  "plural": "subject",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "id": true,
+      "length": 11,
+      "autoIncrement": 1
+    },
+    "course_id": {
+      "type": "number",
+      "length": 11
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

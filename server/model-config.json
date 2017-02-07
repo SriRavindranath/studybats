@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "studybats",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "studybats",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "studybats",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "studybats",
+    "public": false
+  },
+  "Notes": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "University": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "userprofile": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "colleges": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "container": {
+    "dataSource": "container",
+    "public": true
+  },
+  "file": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "course_details": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "subject_details": {
+    "dataSource": "studybats",
+    "public": true
+  },
+  "city": {
+    "dataSource": "studybats",
+    "public": true
+  },
+    "storeme": {
+    "dataSource": "studybats",
+    "public": true
+  }
+}

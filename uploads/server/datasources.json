@@ -1,0 +1,18 @@
+{
+  "studybats": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "Studybats",
+    "username": "",
+    "password": "",
+    "name": "studybats",
+    "connector": "mongodb"
+  },
+  "container": {
+    "name": "container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./uploads",
+    "maxFileSize": "52428800"
+  }
+}
